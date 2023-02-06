@@ -1,10 +1,15 @@
-- 👋 Hi, I’m @JulioJavif
-- 👀 I’m interested in programming
-- 🌱 I’m currently learning new technologies and frameworks
-- 💞️ I’m looking to collaborate on development projects
-- 📫 How to reach me facebook.com/juliojavif
 
-<!---
-JulioJavif/JulioJavif is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Julio Javier Fuentes
+
+Ingeniero de Sistemas y desarrollador de Software.
+
+## 💡 Stack Técnico
+
+**Client:** Angular, Ionic.
+
+**Server:** Node, Express, Spring Boot.
+## 🛠 Skills
+Javascript, HTML, CSS, Java, PostgreSql, MySql.
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliojavif/)
+[![Instagram](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/juliofts99/)
