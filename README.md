@@ -1,8 +1,9 @@
 
 # Julio Javier Fuentes
 
-Ingeniero de Sistemas y desarrollador de Software.
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JulioJavif&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+Ingeniero de Sistemas y desarrollador de Software.
 
 ## 💡 Stack Técnico
 **Cliente:** Angular, Ionic.
