@@ -1,0 +1,33 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.toggleButton {
+    float: right;
+    margin-right: 5px;
+    height: 30px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    color: #3f51b5;
+    border-top: rgba(gray, 0.3) solid;
+    border-left: rgba(gray, 0.3) solid;
+    border-bottom: rgba(white, 0.3) solid;
+    border-right: rgba(white, 0.3) solid;
+
+    :active {
+        animation: pulse-button 0.5s normal;
+    }
+}
+
+@keyframes pulse-button {
+    0% {
+        border-top: rgba(black, 0.5) solid;
+        border-left: rgba(black, 0.5) solid;
+    }
+    100% {
+        border-top: rgba(black, 0.3) solid;
+        border-left: rgba(black, 0.3) solid;
+    }
+}

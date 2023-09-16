@@ -1,0 +1,22 @@
+<nav class="navbar">
+    <app-nav (toggle)="sidenav.toggle()"></app-nav>
+</nav>
+<mat-sidenav-container [hasBackdrop]="true">
+    <!-- Sidenav -->
+    <mat-sidenav #sidenav mode="over" position="start">
+        <mat-nav-list>
+            <button (click)="sidenav.toggle()" class="toggleButton">
+                <i class="fa fa-xmark fa-lg"></i>
+                Cerrar
+            </button>
+            <a mat-list-item *ngFor="let item of optNav">{{item.label}}</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <!-- Content -->
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+<footer>
+    <app-footer></app-footer>
+</footer>
