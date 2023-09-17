@@ -9,6 +9,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { FooterComponent } from '../components/footer/footer.component';
 import { HomeContentComponent } from './home-content/home-content.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HomeContentComponent } from './home-content/home-content.component';
     NavComponent,
     FooterComponent,
     HomeContentComponent,
+    ProjectsComponent,
   ],
   imports: [
     CommonModule,

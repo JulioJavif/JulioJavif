@@ -1,0 +1,22 @@
+<div class="ml-6 mb-3">
+  <h1>Proyectos</h1>
+</div>
+<div class="ml-6" style="padding-right: 10px;">
+  <div class="container-card">
+    <div class="card p-2" *ngFor="let project of projectList">
+      <div class="grid">
+        <div class="col-12">
+          <span>{{project.nombre}}</span>
+        </div>
+        <div class="col-12">
+          <p>{{project.descripcion}}</p>
+        </div>
+        <div class="col-12 grid">
+          <div class="col-2" *ngFor="let tech of project.tecnology">
+            <i class="{{tech}}"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

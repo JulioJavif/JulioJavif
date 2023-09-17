@@ -13,10 +13,10 @@
         </mat-nav-list>
     </mat-sidenav>
     <!-- Content -->
-    <mat-sidenav-content>
+    <mat-sidenav-content class="grid">
         <router-outlet></router-outlet>
+        <footer class="col-12 grid" style="width: 100%;">
+            <app-footer></app-footer>
+        </footer>
     </mat-sidenav-content>
 </mat-sidenav-container>
-<footer>
-    <app-footer></app-footer>
-</footer>
